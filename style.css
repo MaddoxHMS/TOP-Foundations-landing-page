@@ -1,10 +1,9 @@
-*{
-    color: white;
-}
 body{
     padding:0;
     border:0;
     margin:0;
+    display: flex;
+    flex-direction: column;
 }
 
 .top-section {
@@ -36,6 +35,7 @@ ul{
     padding:0;
     display: flex;
     gap: 24px;
+    color: #F9FAF8;
 }
 
 .hero img{
@@ -48,6 +48,7 @@ ul{
     justify-content: space-between;
     align-items: center;
     padding-bottom: 32px;
+    color: #F9FAF8;
 
     
 }
@@ -56,6 +57,7 @@ button {
     background-color: #3882F6;
     padding: 8px 24px;
     border-radius: 4px;
+    color: #F9FAF8;
 }
 
 .header-logo{
@@ -64,5 +66,40 @@ button {
 }
 
 .section-two{
-    background-color: #3882F6;
+    background-color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    height:400px;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.section-two-header{
+    display: flex;
+    height: 75px;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.card-container{
+    display:flex;
+    justify-content: center;
+    gap:32px;
+}
+
+.card img{
+    width: 200px;
+    height: 200px;
+    
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:210px;
 }
