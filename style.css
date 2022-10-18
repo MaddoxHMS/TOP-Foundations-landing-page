@@ -173,3 +173,12 @@ a:visited {
     max-width: 50%;
     color: white;
 }
+
+.footer{
+    background-color: #1f2937;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
