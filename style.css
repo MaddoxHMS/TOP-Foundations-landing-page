@@ -21,6 +21,15 @@ h1{
     font-weight:900;
 }
 
+h3{
+    margin:0;
+    margin-bottom: 8px;
+}
+
+p{
+    margin:0;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -118,7 +127,6 @@ a:visited {
     align-items: center;
     justify-content: center;
     min-height: 300px;
-    flex: 1;
     background-color: #E5E7EB;
     padding: 32px 15%;
     gap: 8px;
@@ -135,4 +143,33 @@ a:visited {
     font-size: 36px;
     color: #1f2937;
     font-style: italic;
+    font-weight: lighter;
+}
+
+.call-to-action{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+    min-height: 300px;
+    padding: 50px 150px;
+}
+
+.cta-box{
+    background-color: #3882F6;
+    flex:1;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 16px;
+}
+
+.cta-box > button{
+    border: 1px solid white;
+}
+
+.cta-text{
+    max-width: 50%;
+    color: white;
 }
